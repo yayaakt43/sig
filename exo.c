@@ -18,7 +18,7 @@ void remise_a_zero(){
 
 int main(){
         signal(SIGINT, traiter_signal);
-        signal(SIGTSTPR, remise_a_zero);
+        signal(SIGTSTP, remise_a_zero);
         printf("Le Ctrl+c est neutralisé\n");
     printf("Pour sortir du processus appuyer sur la touche Entrée\n");
         getchar();
