@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 
-cpt=0;
+int cpt=0;
 void traiter_signal(){
         printf("Total Ctrl+C = %d \n", cpt);
         cpt++;
