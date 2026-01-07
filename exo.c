@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <signal.h>
 
+cpt=0;
 void traiter_signal(){
-        printf("Signal Ctrl+C bien reçu !\n");
+        printf("Total Ctrl+C = %d \n", cpt);
+        cpt++;
     
 }
 
