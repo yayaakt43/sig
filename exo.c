@@ -5,6 +5,10 @@ int cpt=0;
 void traiter_signal(){
         printf("Total Ctrl+C = %d \n", cpt);
         cpt++;
+
+        if(cpt == 5){
+                return 0;
+        }
     
 }
 
