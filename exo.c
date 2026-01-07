@@ -14,6 +14,7 @@ void traiter_signal(){
 
 void remise_a_zero(){
         cpt = 0 ;
+        printf("Total Ctrl+C = %d \n", cpt);
 }
 
 int main(){
