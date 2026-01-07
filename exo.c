@@ -7,7 +7,7 @@ void traiter_signal(){
         cpt++;
 
         if(cpt == 5){
-                break;
+                exit(0);
         }
     
 }
