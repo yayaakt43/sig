@@ -6,7 +6,7 @@ void traiter_signal(){
         printf("Total Ctrl+C = %d \n", cpt);
         cpt++;
 
-        if(cpt == 5){
+        if(cpt > 5){
                 exit(0);
         }
     
